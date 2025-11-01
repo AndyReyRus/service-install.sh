@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # https://github.com/fastfetch-cli/fastfetch/releases
 VERSION="2.54.0"
 

@@ -1,6 +1,9 @@
 #!/bin/bash
 
+
+# https://github.com/prometheus/node_exporter/releases
 VERSION="1.9.1"
+
 
 cd /tmp
 wget https://github.com/prometheus/node_exporter/releases/download/v$VERSION/node_exporter-$VERSION.linux-amd64.tar.gz
