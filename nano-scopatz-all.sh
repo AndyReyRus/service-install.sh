@@ -2,7 +2,10 @@
 
 
 USER=ar4
-sudo -v
+sudo -v -t 180
+
+sudo cp /etc/nanorc /etc/nanorc.backup
+sudo sed -i '/^[^#]/ s/^/# /' /etc/nanorc
 
 
 mkdir -p /home/$USER/.config/nano
