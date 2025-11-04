@@ -50,3 +50,5 @@ set mouse
 # Указываем темы для подсветки синтаксиса всевозможных форматов
 include "/root/.nano/*.nanorc"
 EOF
+
+rm ./nano-scopatz-all.sh
