@@ -69,7 +69,7 @@ VBoxManage storageattach "$VM_NAME" \
   --type hdd \
   --medium "$VM_PATH/${VM_NAME}.vdi"
 
-# Подключение диска как SATA - НУЖНО ОСТАВИТЬ ЧТО ТО ОДНО 
+# Подключение диска как SATA
 VBoxManage storageattach "$VM_NAME" \
   --storagectl "SATA Controller" \
   --port 1 \
