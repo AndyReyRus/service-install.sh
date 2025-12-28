@@ -6,7 +6,7 @@ VM_PATH="$HOME/VBox/Server/$VM_NAME"
 OS_TYPE="Debian_64"
 
 
-# Проверка существования ISO (добавьте для надежности)
+# Проверка существования ISO
 if [ ! -f "$ISO_PATH" ]; then
     echo "Ошибка: ISO файл не найден!"
     echo "Путь: $ISO_PATH"
