@@ -8,7 +8,7 @@ OS_TYPE="Debian_64"
 
 # Проверка существования ISO (добавьте для надежности)
 if [ ! -f "$ISO_PATH" ]; then
-    echo "❌ Ошибка: ISO файл не найден!"
+    echo "Ошибка: ISO файл не найден!"
     echo "Путь: $ISO_PATH"
     exit 1
 fi
